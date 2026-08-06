@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1
+        {
+            background-color: black;
+            color:white;    
+            padding: 20px;
+            text-align: center;
+        }
+        table,th,td
+        {
+            border:1px solid black;
+            border-collapse: collapse ;
+            padding: 5px;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>aula 05-Exemplo 1 </h1>
+    <h3>Exemplo do rowspan</h3>
+
+    <table>
+        <tr>
+            <th>aula</th>
+            <th>Quarta-feira</th>
+            <th>Quinta-feira</th>
+            <th>Sexta-feira</th>
+        </tr>
+
+        <tr>
+            <td>1ª aula</td>
+            <td rowspan="2">AD/PA</td>
+            <td>MATEMATICA</td>
+            <td>QUIMICA</td>
+        </tr>
+        
+        <tr>
+            <td>2ª aula</td>
+            <td>PORTUGUES</td>
+            <td rowspan="2" >EDUCAÇÃO FISICA</td>
+        </tr>
+        
+        <tr>
+            <td>3ª aula</td>
+            <td>ARTES</td>
+            <td rowspan="2">INTERFACE WEB</td>
+        </tr>
+        
+        <tr>
+            <td>4ª aula</td>
+            <td>GEOGRAFIA</td>
+            <td>BIOLOGIA</td>
+        </tr>
+        
+        <tr>
+            <td>5 ªaula</td>
+            <td rowspan="2">INGLÊS</td>
+            <td>QUIMICA</td>
+            <td rowspan="2">BANCO DE DADOS</td>
+        </tr>
+        
+        <tr>
+            <td>6 ª aula</td>
+            <td>MATEMATICA</td>
+        </tr>
+    </table>
+</body>
+</html>
